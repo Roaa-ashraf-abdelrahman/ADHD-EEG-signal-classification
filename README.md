@@ -21,3 +21,19 @@ the dataset was aquired from [IEEEDataPort EEG data for ADHD / control children]
    - first it reads the files from the new directory
    - then, it divides single record into multiple equal epochs, epoch duration = 10 seconds with 75% overlap
    - then, it converts each epoch to numpy array using epoch.get_data()
+- after applying this function to all the files in our directory, we put all the arrays in one big array
+- then we created an array for labels
+- total control data = total ADHD data = 776
+- the shape of data fed to the model was **1280x19**
+### 1-D CNN model
+#### Model building:
+- our CNN model consists of **15 layers**
+- the model consisted:
+   - 6 convolution 1-D layers
+   - 6 pooling layers(2 max pooling and 4 average pooling)
+   - 7 LeakyReLU layers
+   - 2 dropout layers
+   - 3 dense layers
+   - The output layer is a Dense layer with a single unit and sigmoid activation for binary classification
+- **Optimizer used**: Adam optimizer
+#### Accuracy and cofusion matrix
