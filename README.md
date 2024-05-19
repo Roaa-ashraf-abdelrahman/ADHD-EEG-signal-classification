@@ -1,7 +1,22 @@
 # ADHD-EEG-signal-classification
 Our project is Binary EEG signal classification using 1D CNN deep learning model\
 We are classifying our signal into control and ADHD\
-the dataset was aquired from [IEEEDataPort EEG data for ADHD / control children](https://ieee-dataport.org/open-access/eeg-data-adhd-control-children) \
+## Table of content
+### - Dataset
+### - Data conversion
+### - Data preprocessing
+### - CNN model
+### - Metrics
+###  confusion matrix and ROC curve
+
+### First: Dataset
+- the dataset was aquired from [IEEEDataPort EEG data for ADHD / control children](https://ieee-dataport.org/open-access/eeg-data-adhd-control-children) \
+
+
+
+
+
+
 
 ## First: converting and preprocessing
 ### Converting files
