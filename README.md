@@ -1,6 +1,10 @@
 # ADHD-EEG-signal-classification
 Our project is Binary EEG signal classification using 1D CNN deep learning model\
-We are classifying our signal into control and ADHD
+We are classifying our signal into control and ADHD\
+Project by: 
+- Aliaa Alaa Eldin
+- Kholoud Abdelmohsen
+- Roaa Ashraf
 ## Table of content
 ### - Dataset
 ### - Data conversion
