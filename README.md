@@ -67,7 +67,7 @@ We are classifying our signal into control and ADHD\
    - Precision= 90.1%
    - Recall= 91.25%
    - F-score= 90.6%
-   - Test acuracy= 90%
+   - Test acuracy= 90.5%
 
 ## Seventh: ROC curve
 ![Github logo](https://github.com/Roaa-ashraf-abdelrahman/ADHD-EEG-signal-classification/blob/d911422b597eb7f05951334872986ad7092f3a6e/ROC%20curve.png)
