@@ -1,10 +1,7 @@
 # ADHD-EEG-signal-classification
 Our project is Binary EEG signal classification using 1D CNN deep learning model\
 We are classifying our signal into control and ADHD\
-Project by: 
-- Aliaa Alaa Eldin
-- Kholoud Abdelmohsen
-- Roaa Ashraf
+
 ## Table of content
 ### - Dataset
 ### - Data conversion
@@ -65,12 +62,12 @@ Project by:
 ![Github logo](https://github.com/Roaa-ashraf-abdelrahman/ADHD-EEG-signal-classification/blob/2636154eb570d5e25adc84c357ec7f03cb9c6a59/Screenshot%202024-05-19%20194946.png)
 ## Sixth: Metrics
 - We calculated the sensitivity, specificity, Precision, Recall, F-score and the test acuracy
-   - Sensitivity= 0.9125
-   - Specificity= 0.8974358974358975
-   - Precision: 0.9012345679012346
-   - Recall: 0.9125
-   - F-score: 0.9068322981366459
-   - Test acuracy=90%
+   - Sensitivity= 91.25%
+   - Specificity= 89.7%
+   - Precision= 90.1%
+   - Recall= 91.25%
+   - F-score= 90.6%
+   - Test acuracy= 90%
 
 ## Seventh: ROC curve
 ![Github logo](https://github.com/Roaa-ashraf-abdelrahman/ADHD-EEG-signal-classification/blob/d911422b597eb7f05951334872986ad7092f3a6e/ROC%20curve.png)
