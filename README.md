@@ -18,17 +18,12 @@ We are classifying our signal into control and ADHD\
 - EEG recording was performed based on 10-20 standard by 19 channels (Fz, Cz, Pz, C3, T3, C4, T4, Fp1, Fp2, F3, F4, F7, F8, P3, P4, T5, T6, O1, O2) at 128 Hz sampling frequency.
 - Since one of the deficits in ADHD children is visual attention, the EEG recording protocol was based on visual attention tasks.
 
-
-
-
-
-
-
 ## Second: Data conversion
 ### Converting files
 - The data files was in .mat format, we converted it to .fif to help us deal with it and saved it
 
 ## Third: Data preprocessing
+- we created new file pathes one for ADHD and one for Control to save the filtered data in
 - We used **MNE library** for reading, diplaying and preprocessing files
 - We applied **high-pass** filter at frequency = 0.5 Hz
 - Then, We applied **notch filter** at frequency = 50 Hz to remove power line frequency
@@ -48,6 +43,8 @@ We are classifying our signal into control and ADHD\
 - after applying this function to all the files in our directory, we put all the arrays in one big array
 - then we created an array for labels
 - the shape of data fed to the model was **1280x19**
+- total no. of epoches =1571 , we splited them to 80% training , 10% valitation, 10% test
+- then we scaled the data using standard scaler to ensure the data points as a balanced scale
 ### 1D CNN model
 #### Model building:
 - our CNN model consists of **15 layers**
@@ -59,5 +56,14 @@ We are classifying our signal into control and ADHD\
    - 3 dense layers
    - The output layer is a Dense layer with a single unit and sigmoid activation for binary classification
 - **Optimizer used**: Adam optimizer
+
 ## Fifth: Confusion matrix
-![Github logo](https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png)
+![Github logo](https://github.com/Roaa-ashraf-abdelrahman/ADHD-EEG-signal-classification/blob/2636154eb570d5e25adc84c357ec7f03cb9c6a59/Screenshot%202024-05-19%20194946.png)
+## Sixth: Metrics
+-We calculated the sensitivity and specificity
+-Sensitivity= 0.9125
+-Specificity= 0.8974358974358975
+-Test acuracy=90%
+
+## Seventh: ROC curve
+
