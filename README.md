@@ -70,5 +70,5 @@ We are classifying our signal into control and ADHD\
    - Test acuracy= 81.5%
 
 ## Seventh: ROC curve
-![Github logo](https://github.com/Roaa-ashraf-abdelrahman/ADHD-EEG-signal-classification/blob/d911422b597eb7f05951334872986ad7092f3a6e/ROC%20curve.png)
+![Github logo](https://github.com/aliaalaaa/ADHD-EEG-signal-classification/blob/c60aee4441cff41ed778efbd9199dd4d03f97364/ROC.jpg)
 
