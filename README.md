@@ -59,7 +59,7 @@ We are classifying our signal into control and ADHD\
 - **Optimizer used**: Adam optimizer
 
 ## Fifth: Confusion matrix
-![Github logo](https://github.com/Roaa-ashraf-abdelrahman/ADHD-EEG-signal-classification/blob/2636154eb570d5e25adc84c357ec7f03cb9c6a59/Screenshot%202024-05-19%20194946.png)
+![Github logo](https://github.com/aliaalaaa/ADHD-EEG-signal-classification/blob/3fb31ecf62a2ed5305268f54c442aad0563942bf/CM.jpg)
 ## Sixth: Metrics
 - We calculated the sensitivity, specificity, Precision, Recall, F-score and the test acuracy
    - Sensitivity= 73.5%
