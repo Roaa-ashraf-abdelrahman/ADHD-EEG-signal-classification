@@ -1,6 +1,7 @@
 # ADHD-EEG-signal-classification
 Our project is Binary EEG signal classification using 1D CNN deep learning model\
-We are classifying our signal into control and ADHD
+We are classifying our signal into control and ADHD\
+
 ## Table of content
 ### - Dataset
 ### - Data conversion
@@ -43,7 +44,7 @@ We are classifying our signal into control and ADHD
 - after applying this function to all the files in our directory, we put all the arrays in one big array
 - then we created an array for labels
 - the shape of data fed to the model was **1280x19**
-- total no. of epoches =1571 , we splited them to 80% training , 10% valitation, 10% test
+- total no. of epoches =1565 , we splited them to 80% training , 10% valitation, 10% test
 - then we scaled the data using standard scaler to ensure the data points as a balanced scale
 ### 1D CNN model
 #### Model building:
@@ -58,16 +59,16 @@ We are classifying our signal into control and ADHD
 - **Optimizer used**: Adam optimizer
 
 ## Fifth: Confusion matrix
-![Github logo](https://github.com/Roaa-ashraf-abdelrahman/ADHD-EEG-signal-classification/blob/2636154eb570d5e25adc84c357ec7f03cb9c6a59/Screenshot%202024-05-19%20194946.png)
+![Github logo](https://github.com/aliaalaaa/ADHD-EEG-signal-classification/blob/494d7209b98a0f70605c8a7b670b8904feae4eb6/confusion%20matrixx.jpg)
 ## Sixth: Metrics
 - We calculated the sensitivity, specificity, Precision, Recall, F-score and the test acuracy
-   - Sensitivity= 0.9125
-   - Specificity= 0.8974358974358975
-   - Precision: 0.9012345679012346
-   - Recall: 0.9125
-   - F-score: 0.9068322981366459
-   - Test acuracy=90%
+   - Sensitivity: 90.36%
+   - Specificity: 81.08%
+   - Precision= 84.26%
+   - Recall= 90.36%
+   - F-score= 87.2%
+   - Test acuracy= 86%
 
 ## Seventh: ROC curve
-![Github logo](https://github.com/Roaa-ashraf-abdelrahman/ADHD-EEG-signal-classification/blob/d911422b597eb7f05951334872986ad7092f3a6e/ROC%20curve.png)
+![Github logo](https://github.com/aliaalaaa/ADHD-EEG-signal-classification/blob/01ee6d96f77054a1e0cc2dd96144e4d755c6d983/ROC%20curve.jpg)
 
