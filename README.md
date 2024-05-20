@@ -44,7 +44,7 @@ We are classifying our signal into control and ADHD\
 - after applying this function to all the files in our directory, we put all the arrays in one big array
 - then we created an array for labels
 - the shape of data fed to the model was **1280x19**
-- total no. of epoches =1571 , we splited them to 80% training , 10% valitation, 10% test
+- total no. of epoches =1565 , we splited them to 80% training , 10% valitation, 10% test
 - then we scaled the data using standard scaler to ensure the data points as a balanced scale
 ### 1D CNN model
 #### Model building:
@@ -62,12 +62,12 @@ We are classifying our signal into control and ADHD\
 ![Github logo](https://github.com/Roaa-ashraf-abdelrahman/ADHD-EEG-signal-classification/blob/2636154eb570d5e25adc84c357ec7f03cb9c6a59/Screenshot%202024-05-19%20194946.png)
 ## Sixth: Metrics
 - We calculated the sensitivity, specificity, Precision, Recall, F-score and the test acuracy
-   - Sensitivity= 91.25%
-   - Specificity= 89.7%
-   - Precision= 90.1%
-   - Recall= 91.25%
-   - F-score= 90.6%
-   - Test acuracy= 90.5%
+   - Sensitivity= 73.5%
+   - Specificity= 90.5%
+   - Precision= 89.7%
+   - Recall= 73.5%
+   - F-score= 80.8%
+   - Test acuracy= 81.5%
 
 ## Seventh: ROC curve
 ![Github logo](https://github.com/Roaa-ashraf-abdelrahman/ADHD-EEG-signal-classification/blob/d911422b597eb7f05951334872986ad7092f3a6e/ROC%20curve.png)
